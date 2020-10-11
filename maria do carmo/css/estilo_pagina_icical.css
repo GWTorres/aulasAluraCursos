@@ -1,0 +1,243 @@
+.body{
+	background: #f8b506;
+}
+
+.cabecalho{
+	background: navy;
+	padding: 2em;
+
+}
+
+.font{
+	font-family: Merriweather;
+}
+
+.vote{
+	margin-left: 4em;
+	font-size: 2em;
+	color: gold;
+	font-family: Pacifico;
+}
+
+.indice{
+	text-decoration: blink;
+    color: gold;
+}	
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 2em auto;
+
+}
+
+nav{	
+	position: absolute;
+	top: 2.5em;
+	right: 4em;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	text-transform: uppercase;
+	color: gold;
+	font-weight: bold; 
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav li:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+#scroll {
+    height:400px;
+    overflow:scroll;
+}
+
+.maria{
+	font-weight: bold;
+}
+
+.medida_tela{
+	width: 940px;
+	margin: auto;
+	
+}
+
+.imagem_em_destaque {
+	width: 100%;
+
+}
+
+.titulo{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	margin: 2em;
+	color: navy;
+	line-height: 40px;
+}
+
+.texto_destaque{
+	display: inline-block;
+    width: 42%;
+    vertical-align: top;
+    color: navy;
+    padding: 0px 0px 0px 30px;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+   line-height: 24px;
+
+}
+
+.foto_perfil{
+	width: 40%;
+	box-shadow: -11px -7px 0px 4px navy;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+    
+}
+
+.form{
+	width: 560px;
+	margin: auto;
+	color: navy;
+	
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+form {
+	margin: 0px;
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px
+}
+
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: navy;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin-bottom: 5rem;
+}
+
+.enviar:hover {
+	background: green;
+	transform: scale(1.05);
+}
+
+.como_prefere_o_contato{
+	margin: 20px 0 20px 0;
+	line-height: 30px;
+}
+
+
+.copyright {
+	padding-top: 3rem;
+    color: #FFFFFF;
+    font-size: 1em;
+
+}
+
+footer{
+	color: white;
+	text-align: center;
+	background: navy;
+	height: 100px;
+	
+}
+
+@media screen and (max-width: 480px){ 
+    .caixa, .principal, .conteudo-beneficios, .medida_tela, .mapa-conteudo, .form, .video, table, form{
+        width: auto;
+    }
+
+	.video{
+		margin: 0;
+	}
+
+
+    .form{
+    	padding: 1em;
+    }
+
+    .form div{
+    	padding: 0;
+    }
+
+    .titulo{
+    	margin: 30px;
+
+    }
+
+
+    ul{
+    white-space: pre-line;
+    }
+
+    .imagem_em_destaque{
+    	width: 0;
+
+    }
+
+    .texto_destaque{
+    	margin-top: 1em;
+    	width: 80%;
+    }
+
+	h1 {
+    text-align: center;
+    margin: 1em;
+	}
+
+	.vote{
+		margin: 0 0 20px 0;
+	}
+
+	nav{
+    position:static;
+	}
+
+	.foto_perfil, .titulo-principal{
+    width: 100%;
+	}
+	textarea{
+		width: -webkit-fill-available;
+	}
+
+	.enviar{
+		width: -webkit-fill-available;
+	}
+
+	
+}
